@@ -11,13 +11,19 @@
 }
 
 .form-search {
-  margin-bottom: 20px;
   width: 100%;
 }
 
+.form-search--big {
+  margin-top: 20px;
+}
+
+.form-search--small {
+  margin-top: 20px;
+}
+
 .form-search__input {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: Avenir;
+  font-family: Avenir, sans-serif;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0 1px 8px 0 rgba(61, 78, 97, 0.1);
@@ -30,7 +36,6 @@
 
 .form-search--big .form-search__input {
   height: 70px;
-  margin-top: 20px;
   background-position: 26px center;
   background-size: 19px 19px;
   padding-left: 62px;
@@ -46,8 +51,6 @@
 }
 
 .form-search__input:focus {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: Avenir;
   font-weight: bold;
   border: 1px solid rgba(225, 231, 237, 1);
   outline: none;
